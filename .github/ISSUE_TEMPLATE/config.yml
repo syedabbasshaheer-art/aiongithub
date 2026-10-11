@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Open AI on GitHub
+    url: https://aiongithub.com
+    about: The product itself. Nothing to install.
+  - name: Have a project removed
+    url: https://aiongithub.com/legal#removal
+    about: The removal page for a project's owner.

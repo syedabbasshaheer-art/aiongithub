@@ -1,0 +1,19 @@
+name: Suggest a project
+description: A shipped AI project that belongs in the catalogue
+title: "Add: "
+labels: ["add"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: The link
+      description: The project's own page: GitHub, a website, a post that announces it.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is it for?
+      description: One sentence, in your own words.
+    validations:
+      required: false

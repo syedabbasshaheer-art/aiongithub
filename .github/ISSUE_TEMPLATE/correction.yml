@@ -1,0 +1,26 @@
+name: Report a correction
+description: A project is described or filed wrongly
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Which project?
+      description: Its name or its link on the site.
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong?
+      description: The description, the field, a capability, or a fact such as the licence.
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What is right?
+      description: And where it can be checked.
+    validations:
+      required: true
